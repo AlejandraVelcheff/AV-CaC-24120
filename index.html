@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugares Turísticos de Argentina</title>
+
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="./styles/styles-index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">  <!--para iconos-->
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="titulo">Lugares Turísticos de Argentina</h1>
+            </div>
+        </div>
+
+        <!-- Barra de Navegación -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="./resources/images/Logo.jpg" alt="Logo"></a>
+                <a class="navbar-brand" href="#">Nuestro sitio de Turismo </a>
+                <div class="navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav margin-left">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Nosotros">Acerca de Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="row">
+            <div class="col-md-4 destino">
+                <h3 class="box-destino"> Bariloche</h3>
+                <img src="./resources/images/Bariloche4.jpg" class="img-fluid" alt="Bariloche">
+                <div class="descripcion">
+                    <p>La ciudad de <strong>Bariloche </strong>es conocida por sus impresionantes paisajes montañosos, sus chocolates y sus actividades al aire libre.</p>
+                    <a href="./resources/pages/Bariloche.html" class="btn btn-primary">Más información</a>
+                </div>
+            </div>
+            <div class="col-md-4 destino">
+                <h3 class="box-destino">Iguazú</h3>
+                <img src="./resources/images/Iguazu2.jpg" class="img-fluid" alt="Iguazú">
+                <div class="descripcion">
+                    <p>Las <strong> Cataratas del Iguazú </strong> son una de las maravillas naturales más impresionantes del mundo, ubicadas en la selva subtropical.</p>
+                    <a href="#" class="btn btn-primary">Más información</a>
+                </div>
+            </div>
+            <div class="col-md-4 destino">
+                <h3 class="box-destino">El Calafate y Ushuaia</h3>
+                <img src="./resources/images/Ushuaia5.jpg" class="img-fluid" alt="Ushuaia">
+                <div class="descripcion">
+                    <p> <strong>Ushuaia</strong>, conocida como "El Fin del Mundo". <br />  <strong>El Calafate </strong>es el portal de acceso al Parque Nacional Los Glaciares  </p>
+                    <a href="#" class="btn btn-primary">Más información</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 destino">
+                <h2 class="box-destino">Otros destinos para Visitar</h2>
+                <ul>
+                    <li><a href="./resources/pages/Mendoza.html">Mendoza</a> Famosa por sus viñedos y la cordillera de los Andes.</li>
+                    <li><a href="#">Salta</a> Conocida por sus paisajes montañosos y culturas indígenas.</li>
+                    <li><a href="#">Jujuy</a> Famosa por sus cerros de colores y festivales culturales.</li>
+                    <li><a href="#">Tucuman</a> Conocida como "El Jardín de la República" por su exuberante vegetación.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-5 formulario">
+                <h2>Consultá otros destinos </h2>
+                <form>
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                    </div>  <br />
+                    <div class="form-group">
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+                    </div><br />
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+                    </div><br />
+                    <div class="form-group">
+                        <label for="telefono">Teléfono:</label>
+                        <input type="text" class="form-control" id="telefono" placeholder="Ingrese su teléfono">
+                    </div><br />
+                    <div class="form-group">
+                        <label for="ciudad">Ciudad:</label> <br />
+                        <select id="ciudad" name="ciudad">
+                            <option value="jujuy">Jujuy</option>
+                            <option value="buenos_aires">Buenos Aires</option>
+                            <option value="san juan">San Juan</option>
+                            <option value="cordoba">Córdoba</option>
+                            <option value="otro">Otro...</option>
+
+                        </select><br>
+                    </div> <br />
+                    <div class="form-group">
+                        <label for="comentarios">Comentarios:</label>
+                        <textarea class="form-control" id="comentarios" rows="5" placeholder="Ingrese sus comentarios"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+                <div class="col-md-8 tarjeta">
+                    <img src="./resources/images/Viajar1.jpg" alt="Viajar" id="Viajar">
+                    <h5> <br> <span class="texto-rojo-italica">Viajar, siempre viajar !!!!! </span></h5>
+                </div>
+
+            </div>
+            <div class="col-md-7  formulario ">
+                <h3> Lugares que tenés que conocer </h3>
+                <ol>
+                    <ol>
+                        <li>
+                            <h5>Fitz Roy - Santa Cruz</h5>
+                            <img src="./resources/images/FitzRoy.jpg" alt="Fitz Roy- Santa Cruz">
+                            <p>El Monte Fitz Roy es una montaña en la Patagonia, ubicada en el límite entre Argentina y Chile. Es famoso por sus picos imponentes y su belleza natural.</p>
+                        </li>
+                        <li>
+                            <h5>Hornocal - Jujuy</h5>
+                            <img src="./resources/images/Hornacal.jpg" alt="Hornocal - Jujuy">
+                            <p>La Montaña de los Siete Colores, en la provincia de Jujuy, es un espectáculo natural de colores vibrantes que se formaron por la erosión de minerales a lo largo de millones de años.</p>
+                        </li>
+                        <li>
+                            <h5>Península Valdés - Chubut</h5>
+                            <img src="./resources/images/PeninsulaValdes.jpg" alt="Península Valdés - Chubut">
+                            <p>La Península Valdés es un sitio de gran importancia biológica en la Patagonia argentina, famoso por su fauna marina, incluyendo ballenas, elefantes marinos y pingüinos.</p>
+                        </li>
+                        <li>
+                            <h5>Villa Traful - Neuquén</h5>
+                            <img src="./resources/images/VillaTraful.jpg" alt="Villa Traful - Neuquén">
+                            <p>Villa Traful es un pintoresco pueblo ubicado en la región de los lagos de la provincia de Neuquén, conocido por sus paisajes de montaña y su tranquilidad.</p>
+                        </li>
+                    </ol>
+            </div>
+
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div id="Nosotros" class="col-md-12 texto-justificado">
+                    <p>
+                        <br>
+                        En <strong>VivirViajando</strong> sabemos lo que realmente nos moviliza a la hora de viajar y disfrutar de nuestras vacaciones para que sean una experiencia única.
+                        Es por esto que somos profesionales y apasionados en lo que hacemos, hemos viajado nuestro país extensamente y nos aseguramos de que cada uno de los productos que ofrecemos sea una garantía de satisfacción para nuestros clientes  <br>
+                        Nuestro principal objetivo es la CALIDAD, PRECISIÓN y EFICIENCIA de los servicios prestados, con la finalidad de cumplir con las expectativas de aquellos que CONFIAN en nosotros.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div id="Contacto" class="col-md-6">
+                        <p>Dirección: Av. Del Libertador 1234, Ciudad Autónoma de Buenos Aires</p>
+                        <p>Teléfono: +54 11 5555 0505</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Seguinos en redes sociales:</p>
+                        <a href="#" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram-square"></i>Instagram</a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter-square"></i>Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+</body>
+</html>
