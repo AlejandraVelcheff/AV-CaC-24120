@@ -52,6 +52,10 @@
         margin-right: 130px;
         }
 
+       .texto-centrado {
+          text-align: center;
+        }
+
       .tarjeta {
        background-color: #fff;
        padding: 10px;
@@ -85,12 +89,20 @@
 		  color: red;
 		  font-style: italic;
 		}
+        .texto-rojo-negrita {
+            color: red;
+            font-weight: bold;
+        }
 		.texto-verde {
 		  color: green;
           font-weight: bold;
 		}
         .texto-justificado {
           text-align: justify;
+          }
+
+        .texto-centrado {
+          text-align: center;
           }
 
         .titulo-pag-secundaria {
@@ -107,8 +119,12 @@
         .bg-violeta {
         background-color: #a528a7;
         }
-      
-      .info-pag-secundaria {
+
+       .bg-ocre {
+          background-color: #cebf34;
+        }
+
+       .info-pag-secundaria {
           margin-top: 30px;
         }
 
