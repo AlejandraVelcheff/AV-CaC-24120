@@ -1,0 +1,69 @@
+[
+   {
+    "nombre": "Mar del Plata",
+    "cupo": 25,
+    "destino": "playa",
+    "urlImg": "https://source.unsplash.com/200x200?beach"
+  },
+  {
+    "nombre": "Necochea",
+    "cupo": 10,
+    "destino": "playa",
+    "urlImg": "https://source.unsplash.com/200x200?beach"
+  },
+  {
+    "nombre": "Las Grutas",
+    "cupo": 30,
+    "destino": "playa",
+    "urlImg": "https://source.unsplash.com/200x200?beach"
+  },
+  {
+    "nombre": "Pinamar",
+    "cupo": 7,
+    "destino": "playa",
+    "urlImg": "https://source.unsplash.com/200x200?beach"
+  },
+  {
+    "nombre": "Carilo",
+    "cupo": 5,
+    "destino": "playa",
+    "urlImg": "https://source.unsplash.com/200x200?beach"
+  },
+  {
+    "nombre": "Mendoza",
+    "cupo": 40,
+    "destino": "montaña",
+    "urlImg": "https://source.unsplash.com/200x200?mountain"
+  },
+  {
+    "nombre": "La Falda",
+    "cupo": 5,
+    "destino": "rio",
+    "urlImg": "https://source.unsplash.com/200x200?river"
+  },
+  {
+    "nombre": "Merlo",
+    "cupo": 3,
+    "destino": "montaña",
+    "urlImg": "https://source.unsplash.com/200x200?mountain"
+  },
+  {
+    "nombre": "San Rafael",
+    "cupo": 50,
+    "destino": "rio",
+    "urlImg": "https://source.unsplash.com/200x200?river"
+  },
+  {
+    "nombre": "Calafate",
+    "cupo": 12,
+    "destino": "montaña",
+    "urlImg": "https://source.unsplash.com/200x200?mountain"
+  },
+  {
+    "nombre": "San Martin de los Andes",
+    "cupo": 50,
+    "destino": "montaña",
+    "urlImg": "https://source.unsplash.com/200x200?mountain"
+  }  
+  
+ ]

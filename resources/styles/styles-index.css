@@ -1,0 +1,160 @@
+:root {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+    body {
+            background-color: #f8f9fa;
+        }
+
+        .titulo {
+            background-color: #60be75;
+            color: black;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 3px 3px 5px rgb(0, 0,0);
+        }
+
+        .box-destino {
+        margin-bottom: 30px;
+        background-color: #7dc582;
+        color: black;
+        padding: 10px;
+        border-radius: 8px;
+        }
+
+        .descripcion {
+         padding: 15px;
+         background-color: rgba(255, 255, 255, 0.7);
+         border-radius: 5px;
+        }
+
+        footer {
+         background-color: #cfe2f3;
+         padding: 20px 0;
+         color: #333;
+         text-align: center;
+        }
+
+        .formulario {
+         background-color: #fff;
+         padding: 20px;
+         border-radius: 5px;
+         margin-top: 20px;
+         color: black;
+         box-shadow: 3px 3px 5px rgb(0, 0,0);
+        }
+
+       .formulario img {
+        max-height: 130px;
+        margin-right: 130px;
+        }
+
+       .texto-centrado {
+          text-align: center;
+        }
+
+      .tarjeta {
+       background-color: #fff;
+       padding: 10px;
+       border-radius: 5px;
+       margin-top: 30px;
+       margin-left: 30px;
+       color: black;
+       box-shadow: 2px 2px 2px 2px rgb(0, 0,0);
+       text-align: center;
+
+       }
+        .tarjeta img {
+            max-height: 220px;
+            margin-right: 220px;
+        }
+       .card img {
+            max-height: 200px; 
+            box-shadow: 3px 3px 5px 3px rgb(0, 0,0);
+        }      
+
+       label {
+             font-weight: bold; 
+         }
+         
+        .texto-negrita {
+	     font-weight: bold;
+         font-style: italic
+		}
+
+		.texto-rojo-italica {
+		  color: red;
+		  font-style: italic;
+		}
+        .texto-rojo-negrita {
+            color: red;
+            font-weight: bold;
+        }
+		.texto-verde {
+		  color: green;
+          font-weight: bold;
+		}
+        .texto-justificado {
+          text-align: justify;
+          }
+
+        .texto-centrado {
+          text-align: center;
+          }
+
+        .titulo-pag-secundaria {
+          color: black;
+          padding: 20px;
+          text-align: center;
+          border-radius: 8px;
+          margin-bottom: 5px;
+         
+        }
+        .bg-verde {
+         background-color: #28a745; /* verde*/
+        }
+        .bg-violeta {
+        background-color: #a528a7;
+        }
+
+       .bg-ocre {
+          background-color: #cebf34;
+        }
+
+       .info-pag-secundaria {
+          margin-top: 30px;
+        }
+
+        .info-pag-secundaria h2 {
+           margin-bottom: 20px;
+         }
+         
+                
+        
+           /* Estilo para la barra de navegación */
+        .navbar {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 5px;
+            margin-bottom: 5px;
+                 }
+
+          .nav-link {
+            color: #6c757d; 
+        }
+
+            .nav-link:hover {
+                color: #007bff; 
+            }
+
+        .navbar-nav {
+            margin-left: auto;
+        }
+
+        .navbar-brand img {
+            max-height: 40px; 
+            margin-right: 10px;
+        }
